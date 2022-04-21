@@ -115,3 +115,5 @@ class QuoteCalculator: #creates class
         contactPhoneerrorCode.title('Error')
         Label(contactPhoneerrorCode, text = 'Invalid entry: Please enter a phone number', font=("Times", 30)).grid(row = 2, column = 2, sticky = W)
         contactPhoneerrorCode.mainloop()
+      def calculateQuote(self):
+        
